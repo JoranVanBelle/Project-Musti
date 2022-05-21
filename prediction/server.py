@@ -60,13 +60,14 @@ def index():
     map_dict = {0: "binnen", 1: "buiten", 2: "niet aanwezig"}
 
     loc = [map_dict[num] for num in prediction]
+    print(loc)
     date = images[picture].split("\\")[-1].split(".")[0].split("_")[0]
     time = images[picture].split("\\")[-1].split(".")[0].split("_")[1]
 
     datum = f"{date[6:8]}/{date[4:6]}/{date[0:4]}"
     tijd = f"{time[0:2]}:{time[2:4]}"
 
-    while zeker < 0.65:
+    while zeker < 0.75 or loc[0] == "niet aanwezig":
       print("---------------------------------Announcement---------------------------------")
       print(f"The next picture had to be chosen, this one was not clear enough: {zeker}")
       print("---------------------------------Announcement---------------------------------")
@@ -110,7 +111,7 @@ def index():
       tijd = f"{time[0:2]}:{time[2:4]}"
 
     location = f"Musti was op {datum} om {tijd} {''.join(loc)} met {zeker*100:.2f}% zekerheid"
-    return render_template('picture.html', picture = f"{images[picture]}", status=location, numberOfFiles=numberOfFiles)
+    return render_template('picture.html', picture = f"{images[picture]}", status=location, numberOfFiles=numberOfFiles, number=int(picture))
   else:
     return render_template('picture.html', picture = f"static/Layout images/Loading_icon.gif", status="Take a picture of Musti to see where she is")
 
