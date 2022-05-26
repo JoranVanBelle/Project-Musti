@@ -1,0 +1,7 @@
+- Het was interessant om een voorbeeld van scratch op te bouwen zonder tussenstappen voorgeschoteld te krijgen.
+- Het was interessant om te beseffen dat de data voorbereiding slecht 1x moest gebeuren en dat je nadien het grootste deel/alles kon kopiëren.
+- Het was de eerste keer om foto's zelf om te vormen naar de gepaste data, dit vergde toch wel enige tijd om alles werkende te krijgen.
+- Een website opzetten mbv python en HTML was wel wat zoeken, gezien we dit nergens in school gezien hadden. Gelukkig is Flask niet het moeilijkste om te leren.
+- Het was leuk om te experimenteren met de verschillende architecturen van een neuraal netwerk. Op die manier kon je zien hoe je betere resultaten kunt halen. Het was in spanning afwachten of hij beter zou scoren dan z'n voorganger.
+- Een andere vaststelling is dat je altijd beroep kunt doen op stackoverflow, mits je de vraag goed en duidelijk stelt. Het goed en duidelijk stellen was dan misschien ook het moeilijkste bij het probleem.
+- Het project leek op een bepaalde manier op de oefeningen van het boek, op deze manier konden we beroep doen op de oefening van MNIST als we vast zaten.
