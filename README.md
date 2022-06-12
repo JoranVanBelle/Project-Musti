@@ -6,7 +6,7 @@ We had to create several classifiers to determine wheter the cat, called Musti, 
 ## Start the local server
 To run the search engine, you need to start the server.py-file from the directory prediction.
 
-## Visit the search engine
+## Visit the webpage
 After you started the server, you can surf to localhost:5000/picture, where you can see the status of Musti.
 
 ## Usage
